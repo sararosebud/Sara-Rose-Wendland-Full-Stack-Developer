@@ -1,20 +1,25 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import Logo from '../assets/images/circleLogo.png'
 
 const Header = () => {
+    let activeStyle = {
+        color: "#fff",
+    };
+
     return (
         <div className='header'>
-            <Navbar expand='lg' fixed='bottom'>
+            <Navbar expand='lg' fixed='top'>
                 <Navbar.Brand>Sara Rose Wendland</Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className='justify-content-end'>
                     <Nav className='ml-auto'>
-                        <NavLink to='/'>Home</NavLink>
-                        <NavLink to='/about'>About</NavLink>
-                        <NavLink to='/projects'>Projects</NavLink>
-                        <NavLink to='/resume'>Resume</NavLink>
-                        <NavLink to='/contact'>Contact</NavLink>
+                        <NavLink to='/' className='nav-link' style={({isActive}) => (isActive ? activeStyle : undefined)}>Home</NavLink>
+                        <NavLink to='/about' className='nav-link' style={({isActive}) => (isActive ? activeStyle : undefined)}>About</NavLink>
+                        <NavLink to='/projects' className='nav-link' style={({isActive}) => (isActive ? activeStyle : undefined)}>Projects</NavLink>
+                        <NavLink to='/resume' className='nav-link' style={({isActive}) => (isActive ? activeStyle : undefined)}>Resume</NavLink>
+                        <NavLink to='/contact' className='nav-link' style={({isActive}) => (isActive ? activeStyle : undefined)}>Contact</NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

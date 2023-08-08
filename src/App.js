@@ -6,12 +6,15 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact'
 import Resume from './pages/Resume'
+import Header from './Components/Header';
 
 
 function App() {
   return (
     <Container>
+    
       <Router>
+      <Header/>
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/about" element={<About />}/>
