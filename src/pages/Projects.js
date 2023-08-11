@@ -1,6 +1,8 @@
 import React from 'react';
 import LittleBear from '../assets/images/CutieWave.png'
 import Card from 'react-bootstrap/Card';
+import MyBook from '../Components/book'
+import { Container } from 'react-bootstrap';
 
 const Projects = () => {
     const ProjectList = [
@@ -48,23 +50,12 @@ const Projects = () => {
 
 
     return (
-        <div className='projects'>
-            <h2>Projects</h2>
-            <div className='wrapper'>
-                {ProjectList.map((item) => {
-                    return(
-                        <div>
-                            <Card>
-                            <Card.Img variant='top' src={item.imageURL} />
-                            <Card.Body>
-                                <Card.Title>{item.name}</Card.Title>
-                            </Card.Body>
-                            </Card>
-                        </div>
-
-                    )
-                })}
-            </div>
+        <div>
+        <Container className='heroResume'>
+        
+            <MyBook/>
+           
+        </Container>
         </div>
     );
 };

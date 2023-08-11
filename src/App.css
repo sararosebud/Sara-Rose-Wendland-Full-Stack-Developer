@@ -22,6 +22,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 .navbar-light .navbar-nav .nav-link,
 .list-group-item a {
   color: #aaa;
@@ -32,6 +37,7 @@
 .navbarBrand {
   
   font-family: 'Megrim', cursive;
+  font-size: 2em;
  
 
 }
@@ -227,6 +233,7 @@ li {
 .content {
   display: flex;
   align-items: center;
+  
 }
 .content p {
   text-align: justify;
@@ -251,6 +258,20 @@ li {
   align-items: center;
   cursor: pointer;
 }
+/* Style the footer */
+
+
+.footer {
+  background-color: #33333300;
+  color: white;
+  text-align: center;
+  padding: 5px; 
+  margin-top: 25%;
+ 
+ 
+  font-size: 12px; 
+}
+
 
 .resume {
   /* background-color: #421023;
