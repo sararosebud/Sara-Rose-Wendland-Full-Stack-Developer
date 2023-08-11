@@ -42,7 +42,10 @@ function About() {
                 excel in dynamic and challenging environments.
               </Card.Text>
             </div>
-            <div className="col-md-6 heroImage"></div>
+            <div className="col-md-6 heroImage">
+            
+
+            </div>
           </div>
         </Card>
       </Container>

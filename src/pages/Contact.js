@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 import './contact.css'
-
+import { TypeAnimation } from 'react-type-animation';
 
 
 
@@ -17,7 +17,7 @@ const Contact = () => {
   
   // Function that displays a success toast on bottom right of the page when form submission is successful
   const toastifySuccess = () => {
-    toast('Form sent!', {
+    toast('Yeeehaw! Form sent!', {
       position: 'bottom-right',
       autoClose: 5000,
       hideProgressBar: true,
@@ -62,7 +62,16 @@ const Contact = () => {
           
           <div className='col-12 text-center'>
             <div className='contactForm'>
-            <h1>Contact Me:</h1>
+            <h1> <TypeAnimation
+                  sequence={[
+                    "Concat",
+                    1000,
+                    "Contact Me:",
+                    1000,
+                  ]}
+                  speed={50}
+                  repeat={0}
+                /></h1>
               <form className="" id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
                 {/* Row 1 of form */}
                 <div className='row formRow'>

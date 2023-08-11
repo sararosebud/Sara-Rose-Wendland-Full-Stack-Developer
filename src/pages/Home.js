@@ -14,12 +14,12 @@ const Home = () => {
                 target="_blank"
                
                 alt="logo"
-                width="75%"
+                width="50%"
               height="auto"
               />
             </div>
             <div className='desc'>
-            <Link to="/portfolio" className="text-white">
+            <Link to="/projects" className="text-white">
                     Stacker.<br></br>
                   </Link>
                   <Link to="https://rosebudsara.com/" target='blank' className="text-white">
@@ -28,7 +28,7 @@ const Home = () => {
                   <Link to="#" className="text-white">
                     <i className=""></i>Crooner.<br></br>
                   </Link>
-                  <Link to="#" className="text-blue">
+                  <Link to="#" className="text-white">
                     <i className=""></i><TypeAnimation
                 sequence={[
                   "Story Teller",
