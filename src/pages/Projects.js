@@ -59,9 +59,6 @@ const Projects = () => {
                             <Card.Body>
                                 <Card.Title>{item.name}</Card.Title>
                             </Card.Body>
-
-                           
-
                             </Card>
                         </div>
 

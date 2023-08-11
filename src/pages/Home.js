@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation';
-import TextTransition, { presets } from 'react-text-transition';
+
 import circleLogo from '../assets/images/circleLogo.png'
 
 

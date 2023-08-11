@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import Logo from '../assets/images/circleLogo.png'
+
 
 const Header = () => {
     let activeStyle = {
