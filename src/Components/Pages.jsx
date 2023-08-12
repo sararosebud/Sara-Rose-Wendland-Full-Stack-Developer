@@ -7,7 +7,7 @@ import '../Book/bookstyle.css'
 
 const Page = React.forwardRef((props, ref) => {
   return (
-    <div className="flip-book portfolio" ref={ref}>
+    <div className="flip-book" ref={ref}>
       <div className="project-container">
         
         <div className="row justify-content-center">
@@ -15,11 +15,11 @@ const Page = React.forwardRef((props, ref) => {
             <img src={props.imageSrc} alt={`Image for Page ${props.number}`} className="img-fluid " />
           </div>
         </div>
-        <p>{props.children}</p>
+        <p className='project-text'>{props.children}</p>
         <a href={props.link} target="_blank" rel="noopener noreferrer">
-          <button className="btn btn-secondary">Visit</button>
+          <button className="btn btn-secondary project-text">Visit</button>
         </a>
-        <p> {props.number}</p>
+        <p className='project-text'> {props.number}</p>
       </div>
     </div>
   );
