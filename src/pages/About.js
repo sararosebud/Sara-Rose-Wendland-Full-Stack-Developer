@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 function About() {
   return (
     <div className="heroAbout">
-      <Container fluid className="contentContainer">
+      <Container fluid className="contentContainer" style={{ paddingTop: '70px'}}>
         <Card className="text-white card-no-border">
           <div className="row">
             <div className="col-md-6">

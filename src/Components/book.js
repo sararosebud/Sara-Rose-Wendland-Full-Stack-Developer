@@ -10,13 +10,14 @@ import Gush from '../assets/images/gush.jpg';
 // import LilBear from '../assets/CutieWave.png'
 import leftPage from '../assets/images/1-left.png'
 
+
 function MyBook(props) {
   const imagePaths = [Canyon, TetonStars, Bison, Gush];
 
   const projects = [
     {
       header: "My Work",
-      content: "Turn The Page To See My Work",
+      content: "Turn The Page To See My Work ",
       imageSrc: Canyon,
       
    
@@ -39,6 +40,24 @@ function MyBook(props) {
         imageSrc: CanyonTree,
         link: "https://sararosebud.github.io/A-Toast-to-the-Weather/"
     },
+    {
+      header: "A Toast to the Weather",
+      content: "Streamlined the drinking experience by integrating real-time weather data with cocktail information. Created a single-page application using HTML, CSS, JavaScript, jQuery, and APIs to recommend drinks based on local weather.",
+      imageSrc: CanyonTree,
+      link: "https://sararosebud.github.io/A-Toast-to-the-Weather/"
+  },
+  {
+    header: "A Toast to the Weather",
+    content: "Streamlined the drinking experience by integrating real-time weather data with cocktail information. Created a single-page application using HTML, CSS, JavaScript, jQuery, and APIs to recommend drinks based on local weather.",
+    imageSrc: CanyonTree,
+    link: "https://sararosebud.github.io/A-Toast-to-the-Weather/"
+},
+{
+  header: "A Toast to the Weather",
+  content: "Streamlined the drinking experience by integrating real-time weather data with cocktail information. Created a single-page application using HTML, CSS, JavaScript, jQuery, and APIs to recommend drinks based on local weather.",
+  imageSrc: CanyonTree,
+  link: "https://sararosebud.github.io/A-Toast-to-the-Weather/"
+}
   ];
 
   const pages = projects.map((project, index) => (

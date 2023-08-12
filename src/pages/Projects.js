@@ -51,7 +51,7 @@ const Projects = () => {
 
     return (
         <div>
-        <Container className='heroResume'>
+        <Container className='heroPortfolio'>
         
             <MyBook/>
            

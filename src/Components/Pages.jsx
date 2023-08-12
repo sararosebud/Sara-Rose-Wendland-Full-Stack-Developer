@@ -7,8 +7,8 @@ import '../Book/bookstyle.css'
 
 const Page = React.forwardRef((props, ref) => {
   return (
-    <div className="flip-book" ref={ref}>
-      <div className="container">
+    <div className="flip-book portfolio" ref={ref}>
+      <div className="project-container">
         
         <div className="row justify-content-center">
           <div className="col-md-6">

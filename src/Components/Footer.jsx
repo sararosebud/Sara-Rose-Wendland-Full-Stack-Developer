@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="container">
+    <footer className="footer" >
+      <div className="containerContent" >
         <nav className="d-flex justify-content-center">
-          <div className="nav nav-pills">
+          <div className="nav nav-pills" >
             {/* Use 'a' tag for external links */}
             <a
               href="https://github.com/sararosebud"

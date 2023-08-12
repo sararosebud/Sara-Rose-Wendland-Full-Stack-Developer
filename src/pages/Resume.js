@@ -33,19 +33,19 @@ function Resume() {
                 <Link
                   to="https://github.com/sararosebud"
                   target="blank"
-                  className="nav-link"
+                  className="nav-link resume-font"
                 >
                   Github
                 </Link>
                 <Link
                   to="https://www.linkedin.com/in/sara-wendland"
-                  className="nav-link"
+                  className="nav-link resume-font"
                 >
                   LinkedIn
                 </Link>
                 <Link
                   to="https://stackoverflow.com/users/21433265/rosebudsara"
-                  className="nav-link"
+                  className="nav-link resume-font"
                 >
                   Stack Overflow
                 </Link>
@@ -78,7 +78,7 @@ function Resume() {
               <Container className="contentContainer">
                 <Card>
                   <Card.Title className="heroTitle">Technical Skills</Card.Title>
-                  <Card.Text>
+                  <Card.Text >
                     <ul>
                       <li> HTML5 </li>
                       <li> CSS</li>
