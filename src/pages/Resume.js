@@ -78,7 +78,7 @@ function Resume() {
               <Container className="contentContainer">
                 <Card>
                   <Card.Title className="heroTitle">Technical Skills</Card.Title>
-                  <Card.Text >
+                  <Card.Text className="resume-font" >
                     <ul>
                       <li> HTML5 </li>
                       <li> CSS</li>
@@ -104,7 +104,7 @@ function Resume() {
                 </Card>
                 <Card>
                   <Card.Title className="heroTitle">Additional Skills</Card.Title>
-                  <Card.Text>
+                  <Card.Text className="resume-font">
                     <ul>
                       <li> Graphic Design </li>
                       <li> Adobe Photoshop</li>

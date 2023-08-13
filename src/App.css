@@ -197,11 +197,13 @@ li {
   align-items: center;
   cursor: pointer;
 } */
+
+
 .fixed-top {
   background-color: #0e151610;
 }
 .home {
-  /* background-color: #210811; */
+  /* background-color: #a37888; */
   display: flex;
   flex-direction: column;
   font-size: 2.5rem;
@@ -220,7 +222,7 @@ li {
  {
   color: rgb(37, 175, 141);
 }
-.projects,
+.project,
 .services,
 .about,
 .contact {
@@ -258,7 +260,7 @@ li {
   text-align: justify;
 }
 
-.projects .wrapper,
+.project .wrapper,
 .resume .wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -287,6 +289,7 @@ li {
   padding: 5px;
   height: 20px; 
   font-size: 12px;
+  padding-top: 100%;
 }
 
 

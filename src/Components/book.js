@@ -1,7 +1,7 @@
 import React from 'react';
 import HTMLFlipBook from 'react-pageflip';
 // import Container from 'react-bootstrap/Container';
-import Page from './Pages'; 
+import Page from './BookPages'; 
 import Canyon from '../assets/images/canyon.jpg';
 import CanyonTree from '../assets/images/canyontree.jpg';
 import TetonStars from '../assets/images/tetonstars.jpg';
@@ -15,6 +15,7 @@ import weatherAnimal from '../assets/images/weatheranimal2.png'
 import volunteer from '../assets/images/volunteer.png'
 import volunteer2 from '../assets/images/cleanvolunteer.png'
 import notetaker from '../assets/images/notetaker.png'
+import { Container } from 'react-bootstrap';
 
 
 
@@ -26,7 +27,7 @@ function MyBook(props) {
       header: "My Work",
       content: "Turn The Page To See My Work ",
       imageSrc: Canyon,
-      
+      github: "https://github.com/sararosebud"
    
     },
     {
@@ -34,28 +35,28 @@ function MyBook(props) {
       content: "Designed an exemplary e-commerce website to provide users with a seamless shopping experience for organic and earth-friendly Pajamas. Leveraged dynamic JavaScript, CSS, SCSS, JSON, MongoDB, and more to craft a user-friendly interface and ensure comprehensive system functionality.",
       imageSrc: leftPage,
       link: 'https://arcane-spire-25027-6f1b8d854313.herokuapp.com/',
-      github: ""
+      github: "https://github.com/sararosebud/DreamLand-WonderLand"
     },
     {
       header: "VolunteerQuest",
       content: "Developed a dynamic platform connecting individuals with local community and non-profit organizations. Contributed to a user-friendly interface and backend development utilizing Node.js, Express.js, Handlebars.js, MySQL, and more.",
       imageSrc: volunteer2,
       link: 'https://volunteer-quest.herokuapp.com/',
-      github: ""
+      github: "https://github.com/sararosebud/Volunteer-Quest-2.0"
     },
     {
         header: "A Toast to the Weather",
         content: "Streamlined the drinking experience by integrating real-time weather data with cocktail information. Created a single-page application using HTML, CSS, JavaScript, jQuery, and APIs to recommend drinks based on local weather.",
         imageSrc: Toast,
         link: "https://sararosebud.github.io/A-Toast-to-the-Weather/",
-        github: ""
+        github: "https://github.com/sararosebud/A-Toast-to-the-Weather"
     },
     {
       header: "Note Taker",
       content: "Note Taker app that can be used to write and take notes. The app uses an Express.js backend and saves and retrieves note data from a JSON file. The apps front end was built, and the backend was created and connected.",
       imageSrc: notetaker,
       link: "https://nodejs-note-taker-sarawendland.herokuapp.com/notes",
-      github: ""
+      github: "https://github.com/sararosebud/NoteTaker"
   },
   {
     header: "Coding Quiz",
@@ -79,17 +80,20 @@ function MyBook(props) {
       number={index + 1}
       imageSrc={project.imageSrc}
       link={project.link}
+      github={project.github}
     >
       <h2>{project.header}</h2>
       <p>{project.content}</p>
+      
     </Page>
   ));
 
   return (
+    <Container className='heroResume portfolio '>
    
       <HTMLFlipBook
         width={500}
-        height={500}
+        height={600}
         size="stretch"
         minWidth={315}
         maxWidth={1000}
@@ -101,6 +105,7 @@ function MyBook(props) {
       >
         {pages}
       </HTMLFlipBook>
+      </Container>
  
   );
 }

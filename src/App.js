@@ -8,6 +8,7 @@ import Contact from './pages/Contact'
 import Resume from './pages/Resume'
 import Header from './Components/Header';
 import Footer from './Components/Footer'
+import ComingSoon from './pages/ComingSoon';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/comingsoon" element={<ComingSoon />} />
 
         </Routes>
 

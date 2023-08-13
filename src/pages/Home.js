@@ -25,10 +25,10 @@ const Home = () => {
                   <Link to="https://rosebudsara.com/" target='blank' className="text-white">
                     <i className=""></i>Clicker. <br></br>
                   </Link>
-                  <Link to="#" className="text-white">
+                  <Link to="comingsoon" className="text-white">
                     <i className=""></i>Crooner.<br></br>
                   </Link>
-                  <Link to="#" className="text-white">
+                  <Link to="/comingsoon" className="text-white">
                     <i className=""></i><TypeAnimation
                 sequence={[
                   "Story Teller",

@@ -1,8 +1,11 @@
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
   gap: 20px; /* Adjust the gap as needed */
 }
+
+
 
 .image-container {
   width:100%;
@@ -12,22 +15,32 @@
 .image-container img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Crop and fit the image within the container */
+  object-fit: cover;
+  overflow: scroll;
 }
 .project-text {
   font-size: 15px;
+  padding: 10px;
+
 }
+
 
 .portfolio {
   height: 100%;
+  overflow-block:scroll;
 }
 .flip-book {
   height: 100%;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
   display: none;
   background-size: cover;
+  background-color: aliceblue;
 }
+ .btn {
+ margin-left:10%;
+ margin-top: -5px;
 
+ }
 .page {
   padding: 20px;
 
