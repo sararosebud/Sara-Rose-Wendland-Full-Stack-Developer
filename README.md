@@ -31,7 +31,7 @@ Welcome to my professional portfolio, the premium destination for showcasing my 
 
  
 ## Deployed Application Link: 
-[Deployed Application Link:] (https://arcane-spire-25027-6f1b8d854313.herokuapp.com/)
+[Github](https://sararosebud.github.io/Sara-Rose-Wendland-Full-Stack-Developer/)
 
 ## Installation Process:
 1. Clone the Repository from GitHub (or) Download Zip Folder from Repository from GitHub.
