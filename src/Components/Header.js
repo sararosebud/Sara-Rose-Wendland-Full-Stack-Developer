@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <div className='header'>
             <Navbar expand='lg' fixed='top'>
-                <Navbar.Brand className='navbarBrand'href='https://sararosebud.github.io/Sara-Rose-Wendland-Full-Stack-Developer/'>Sara Rose Wendland</Navbar.Brand>
+                <Navbar.Brand className='navbarBrand'>Sara Rose Wendland</Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className='justify-content-end'>
                     <Nav className='ml-auto nav-list'>
