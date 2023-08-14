@@ -16,7 +16,9 @@ const Header = () => {
         
         <div className='header'>
             <Navbar expand='lg' fixed='top'>
-                <Navbar.Brand className='navbarBrand'>Sara Rose Wendland</Navbar.Brand>
+            <NavLink to='/' className='navbarBrand' onClick={() => setExpanded(false)}>
+                    Sara Rose Wendland
+                </NavLink>
                 <Navbar.Toggle onClick={() => setExpanded(!expanded)} />
                 <Navbar.Collapse className='justify-content-end' in={expanded}>
                     <Nav className='ml-auto nav-list'>
