@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Sara-Rose-Wendland-Full-Stack-Developer/static/css/main.c3e6a013.css",
+    "main.js": "/Sara-Rose-Wendland-Full-Stack-Developer/static/js/main.87092983.js",
+    "static/js/787.a2cb61a6.chunk.js": "/Sara-Rose-Wendland-Full-Stack-Developer/static/js/787.a2cb61a6.chunk.js",
+    "static/media/halftoneweb.png": "/Sara-Rose-Wendland-Full-Stack-Developer/static/media/halftoneweb.54e43d2e9e30e1844f56.png",
+    "static/media/notetaker.png": "/Sara-Rose-Wendland-Full-Stack-Developer/static/media/notetaker.bd6a23a9e2fa1bae37df.png",
+    "static/media/toast.png": "/Sara-Rose-Wendland-Full-Stack-Developer/static/media/toast.215659ec5875602b915a.png",
+    "static/media/cleanvolunteer.png": "/Sara-Rose-Wendland-Full-Stack-Developer/static/media/cleanvolunteer.c48e3f073c11f5a5a04b.png",
+    "static/media/volunteer.png": "/Sara-Rose-Wendland-Full-Stack-Developer/static/media/volunteer.6fe8ab8abf266e4bc4a7.png",
+    "static/media/weatheranimal2.png": "/Sara-Rose-Wendland-Full-Stack-Developer/static/media/weatheranimal2.d956a1d58ff4f372207e.png",
+    "static/media/testing.png": "/Sara-Rose-Wendland-Full-Stack-Developer/static/media/testing.060f013e6fd24e6e39b4.png",
+    "static/media/canyon.jpg": "/Sara-Rose-Wendland-Full-Stack-Developer/static/media/canyon.ef94dcc6ed674974e2a1.jpg",
+    "static/media/gush.jpg": "/Sara-Rose-Wendland-Full-Stack-Developer/static/media/gush.4044860ba5068a837c1d.jpg",
+    "static/media/bison.jpg": "/Sara-Rose-Wendland-Full-Stack-Developer/static/media/bison.3475252a3b8274f93d2f.jpg",
+    "static/media/canyontree.jpg": "/Sara-Rose-Wendland-Full-Stack-Developer/static/media/canyontree.086cc4fff4c6270acecf.jpg",
+    "static/media/1-left.png": "/Sara-Rose-Wendland-Full-Stack-Developer/static/media/1-left.c726c07e608b38bba82f.png",
+    "static/media/tetonstars.jpg": "/Sara-Rose-Wendland-Full-Stack-Developer/static/media/tetonstars.9069f6661f321028135a.jpg",
+    "static/media/CutieWave.png": "/Sara-Rose-Wendland-Full-Stack-Developer/static/media/CutieWave.4906495dd9b73b17f25b.png",
+    "static/media/circleLogo.png": "/Sara-Rose-Wendland-Full-Stack-Developer/static/media/circleLogo.3c6d812dc9755d60d3d4.png",
+    "static/media/Sara Rose Wendland Full Stack Resume.docx": "/Sara-Rose-Wendland-Full-Stack-Developer/static/media/Sara Rose Wendland Full Stack Resume.95b17c5c143d9615081c.docx",
+    "static/media/Orbitron-SemiBold.ttf": "/Sara-Rose-Wendland-Full-Stack-Developer/static/media/Orbitron-SemiBold.f21825bb4c4dcaf265f2.ttf",
+    "static/media/Orbitron-Black.ttf": "/Sara-Rose-Wendland-Full-Stack-Developer/static/media/Orbitron-Black.cc6a72b8f7260af1d4ae.ttf",
+    "index.html": "/Sara-Rose-Wendland-Full-Stack-Developer/index.html",
+    "main.c3e6a013.css.map": "/Sara-Rose-Wendland-Full-Stack-Developer/static/css/main.c3e6a013.css.map",
+    "main.87092983.js.map": "/Sara-Rose-Wendland-Full-Stack-Developer/static/js/main.87092983.js.map",
+    "787.a2cb61a6.chunk.js.map": "/Sara-Rose-Wendland-Full-Stack-Developer/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3e6a013.css",
+    "static/js/main.87092983.js"
+  ]
+}
