@@ -53,10 +53,6 @@ const Contact = () => {
     }
   };
 
-  // Function to open the default email client
-  const openEmailClient = () => {
-    window.location.href = "mailto:sararosewendland@gmail.com";
-  };
 
   return (
     <div className="ContactForm form-font">
@@ -73,9 +69,7 @@ const Contact = () => {
                 />
               </h1>
 
-              <button className="email-link" onClick={openEmailClient}>
-                Send Email
-              </button>
+           <p> email: sararosewendland@gmail.com</p>
               <form
                 className=""
                 id="contact-form"
