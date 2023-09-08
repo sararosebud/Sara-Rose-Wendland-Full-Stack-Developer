@@ -67,9 +67,9 @@ const Contact = () => {
                   speed={50}
                   repeat={0}
                 />
+                email: sararosewendland@gmail.com
               </h1>
 
-           <p> email: sararosewendland@gmail.com</p>
               <form
                 className=""
                 id="contact-form"
