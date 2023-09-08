@@ -31,7 +31,7 @@ Welcome to my professional portfolio, the premium destination for showcasing my 
 
  
 ## Deployed Application Link: 
-[Github](https://sararosebud.github.io/Sara-Rose-Wendland-Full-Stack-Developer/)
+[Sara Rose Wendland - Portfolio](https://sararosebud.github.io/Sara-Rose-Wendland-Full-Stack-Developer/)
 
 ## Installation Process:
 1. Clone the Repository from GitHub (or) Download Zip Folder from Repository from GitHub.
