@@ -2,7 +2,7 @@
 
 ## Description.
 
-Welcome to my professional portfolio, the premium destination for showcasing my Full Stack Development projects. As a part of the Developer Community, this application offers users a unique and informative place to view my work. By providing comprehensive user functionalities, including navigation to an about, resume, portfolio, contact, and home page users can effortlessly view work samples, and download a resume. 
+Welcome to my professional [portfolio](https://sara-rose-wendland-portfolio.netlify.app/), the premium destination for showcasing my Full Stack Development projects. As a part of the Developer Community, this application offers users a unique and informative place to view my work. By providing comprehensive user functionalities, including navigation to an about, resume, portfolio, contact, and home page users can effortlessly view work samples, and download a resume. 
 
 ## Table of Contents:
 - [Overview](#Overview)
@@ -24,7 +24,7 @@ Welcome to my professional portfolio, the premium destination for showcasing my 
 
 ## Usage Instructions:
 
- 1. Navigate to []().
+ 1. Navigate to https://sara-rose-wendland-portfolio.netlify.app/
  2. Click on any of the Nav Titles to view the corresponding page (About, Portfolio, Contact, Resume)
  3. Browse pages to view the React Portfolio of work samples, view experience, download full resume, and get to know a little bit about me. 
 
