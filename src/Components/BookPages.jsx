@@ -9,7 +9,7 @@ const Page = React.forwardRef((props, ref) => {
       <div className="">
         <div className="row justify-content-center">
           <div className="col-md-6">
-            <img src={props.imageSrc} alt={`Image for Page ${props.number}`} className="img-fluid " />
+            <img src={props.imageSrc} alt={`Site reference for Page ${props.number}`} className="img-fluid " />
           </div>
         </div>
         <p className='project-text'>{props.children}</p>

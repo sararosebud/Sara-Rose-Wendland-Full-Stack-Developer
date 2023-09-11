@@ -1,4 +1,4 @@
-import { TypeAnimation } from "react-type-animation";
+// import { TypeAnimation } from "react-type-animation";
 import Card from "react-bootstrap/Card";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";

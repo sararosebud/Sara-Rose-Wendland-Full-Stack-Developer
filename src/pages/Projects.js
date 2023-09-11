@@ -1,6 +1,6 @@
 import React from 'react';
 import LittleBear from '../assets/images/CutieWave.png'
-import Card from 'react-bootstrap/Card';
+// import Card from 'react-bootstrap/Card';
 import MyBook from '../Components/book'
 import { Container } from 'react-bootstrap';
 
