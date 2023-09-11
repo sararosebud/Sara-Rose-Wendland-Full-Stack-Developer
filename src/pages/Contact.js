@@ -71,7 +71,8 @@ const Contact = () => {
                   ]}
                   speed={50}
                   repeat={0}
-                /></h1>
+                />
+                email me at: sararosewendland@gmail.com</h1>
               <form className="" id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
                 {/* Row 1 of form */}
                 <div className='row formRow'>
