@@ -29,27 +29,41 @@ body, html {
 }
 .navbar-light .navbar-nav .nav-link,
 .list-group-item a {
+  font-family: 'Megrim', cursive;
+  font-size: 1.5em;
   color: #aaa;
+  
 }
 .navbar {
   padding: 25px;
+  
 }
 .navbarBrand {
   
   font-family: 'Megrim', cursive;
   font-size: 2em;
  
-
 }
+.navbarBrand:visited {
+  color: rgb(5, 211, 183);
+}
+
+.nav-link:visited {
+  color: rgb(177, 128, 182);
+}
+
 .content {
   padding-top: 70px; /* Adjust the value according to your header's height */
 }
 
 
 
+
 a {
   text-decoration: none;
 }
+
+
 
 .heroAbout {
   margin-top: 15%;

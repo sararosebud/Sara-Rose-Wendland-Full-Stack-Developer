@@ -67,7 +67,10 @@ const Contact = () => {
                   speed={50}
                   repeat={0}
                 />
-                <div>Email me at: sararosewendland@gmail.com</div>
+                <div>  Email me at:{" "}
+                  <a href="mailto:sararosewendland@gmail.com">
+                    sararosewendland@gmail.com
+                  </a></div>
               </h1>
 
               <form

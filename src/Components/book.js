@@ -1,9 +1,10 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import HTMLFlipBook from 'react-pageflip';
 // import Container from 'react-bootstrap/Container';
 import Page from './BookPages'; 
 import Canyon from '../assets/images/canyon.jpg';
-// import CanyonTree from '../assets/images/canyontree.jpg';
+import CanyonTree from '../assets/images/canyontree.jpg';
 import TetonStars from '../assets/images/tetonstars.jpg';
 import Toast from "../assets/images/toast.png"
 import Bison from '../assets/images/bison.jpg';
@@ -12,7 +13,7 @@ import Gush from '../assets/images/gush.jpg';
 import leftPage from '../assets/images/1-left.png'
 import quizImage from '../assets/images/testing.png'
 import weatherAnimal from '../assets/images/weatheranimal2.png'
-// import volunteer from '../assets/images/volunteer.png'
+import volunteer from '../assets/images/volunteer.png'
 import volunteer2 from '../assets/images/cleanvolunteer.png'
 import notetaker from '../assets/images/notetaker.png'
 import { Container } from 'react-bootstrap';
@@ -20,6 +21,7 @@ import { Container } from 'react-bootstrap';
 
 
 function MyBook(props) {
+  // eslint-disable-next-line no-unused-vars
   const imagePaths = [Canyon, TetonStars, Bison, Gush];
 
   const projects = [
